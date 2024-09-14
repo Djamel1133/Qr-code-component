@@ -15,53 +15,38 @@
 
 html{
   font-family: "Outfit", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
+  color: var(--Slate-900);
 }
 
 main{
   background-color: var(--Slate-300) ; 
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  justify-items: center; 
-  margin: auto;
+  align-content: center;
 }
 
 .container {
-  width: 320px;  
+  width: 310px;  
   background-color: var(--White);
   margin: auto;
-  padding: 10px;
- 
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  justify-content: space-between;
   text-align: center;
   border-radius: 20px;
+  padding: 0.825rem ;
  }
 
 img{
-  height: 290px;
-  width: 295x;
+  width: 96%;
+  margin: auto;
   object-fit: cover;
   border-radius: 10px;
-  margin-top: 5px;
 }
 
 h1{
   padding: 20px 20px 15px 20px;
   font-weight: 700;
-  color: var(--Slate-900);
 }
 
 p {
   padding: 0px 20px 30px 20px ;
-  font-size: 1rem; /* here 15px */
   font-weight: 500;
-  color: var(--Slate-500);
 }
-
-
-
-
